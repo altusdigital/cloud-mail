@@ -36,6 +36,7 @@ export default defineConfig({
 				name: "cloud-mail",
 			}),
 			forward: bindings.sendEmail({}),
+			email: bindings.sendEmail({}),
 			ai: bindings.ai({}),
 			assets: bindings.assets(),
 		},
